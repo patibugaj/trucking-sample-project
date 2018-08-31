@@ -1,12 +1,18 @@
 import React from 'react'
-import Hero from '../components/Hero/Hero.jsx'
-import Offer from '../components/Offer/Offer.jsx'
+import styled from 'styled-components'
+import Hero from '../components/Hero'
+import Offer from '../components/Offer'
+
+const Div = styled.div`
+  margin: 0;
+  width: 100%;
+`
 
 const IndexPage = () => (
-  <div>
+  <Div>
     <Hero />
     <Offer />
-  </div>
+  </Div>
 )
 
 export default IndexPage
