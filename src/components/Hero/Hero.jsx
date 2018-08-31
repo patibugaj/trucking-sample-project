@@ -1,8 +1,8 @@
 import React from 'react'
-import NavBar from './Navbar/NavBar.jsx'
-import InfoBoxes from './InfoBoxes/InfoBoxes.jsx'
-import DetailsButton from './DetailsButton/DetailsButton.jsx'
-import Title from './Title/Title.jsx'
+import NavBar from './Navbar'
+import InfoBoxes from './InfoBoxes'
+import DetailsButton from './DetailsButton'
+import Title from './Title'
 
 const Hero = () => (
   <div>
