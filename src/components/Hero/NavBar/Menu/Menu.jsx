@@ -14,6 +14,10 @@ const Container = styled.ul`
     wrap: nowrap;
     justify-content: center;
     align-items: center;
+    font-family:  'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: bold;
 `
 
 const Menu = () => (
