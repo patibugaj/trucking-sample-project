@@ -24,9 +24,9 @@ const Header = styled.h1`
   }
 `
 
-const Title = () => (
+const Title = (props) => (
   <Container>
-    <Header>Strongest Distribiution Network</Header>
+    <Header>{props.children}</Header>
   </Container>
 )
 

@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Width from '../Width'
 import Boxes from './Boxes'
+import { checkPropTypes } from 'prop-types';
 
 const Section = styled.section`
   background-color: rgb(255, 255, 255);
@@ -47,15 +48,15 @@ const SubTitle = styled.h3`
     }
 `
 
-const Offer = () => (
+const Offer = (props) => (
   <Section>
     <Width>
       <Container>
         <Header>
-          <Title>What we Offer</Title>
-          <SubTitle>Tailored Logistics Services</SubTitle>
+          <Title>{props.title}</Title>
+          <SubTitle>{props.subTitle}</SubTitle>
         </Header>
-        <Boxes></Boxes>
+        <Boxes data={props.offerBoxes}/>
       </Container>
     </Width>
   </Section>

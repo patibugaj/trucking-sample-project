@@ -13,12 +13,12 @@ const Section = styled.section`
   align-items: center;
 `
 
-const Hero = () => (
+const Hero = (props) => (
   <Section>
     <Width>
       <NavBar />
-      <Title />
-      <InfoBoxes />
+      <Title>{props.title}</Title>
+      <InfoBoxes data={props.infoBoxes}/>
       <DetailsButton />
     </Width>
   </Section>

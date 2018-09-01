@@ -15,28 +15,18 @@ const Container = styled.div`
     align-items: center;
 `
 
-const Boxes = () => (
+const Boxes = (props) => (
     <Container>
-        <Box 
-            icon = { contract }
-            title = 'Contract logistics'
-            paragraph = 'Cozy sphinx waves quart jug of bad milk. A very bad quack might sphinx waves quart jug of bad milk. A very bad quack might sphinx waves quart jug of bad milk. A very bad quack might'
-        />
-        <Box 
-            icon = { overland }
-            title = 'Overland, Ocean and Air Freight'
-            paragraph = 'To an English person, it will seem like simplified English, as '
-        />
-        <Box             
-            icon = { warehousing }
-            title = 'Warehousing and Storage'
-            paragraph = 'The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixen'
-        />
-        <Box 
-            icon = { consulting }
-            title = 'Consulting Srvices'
-            paragraph = 'The Big Oxmox advised her not to do so, because there were thou'
-        />
+        {props.data
+            .sort((a, b) => a.order - b.order)
+            .map((offerBox) => 
+                <Box 
+                    key={offerBox.id}
+                    icon={ offerBox.icon.file.url }
+                    title={offerBox.title}
+                    paragraph={offerBox.description.description}
+                />
+            )}
     </Container>
 )
 

@@ -13,18 +13,16 @@ const Boxes = styled.div`
   margin: 0;
 `
 
-const InfoBoxes = () => (
+const InfoBoxes = (props) =>  (
   <Boxes>
-    <InfoBox 
-      title='Overland Network'
-      paragraph='We have a wide experience in overland industry specific logistic solutions'
-    />
-    <InfoBox 
-      title='Ocean Freight' 
-      paragraph='We bring your goods safely to worldwide  destinations with our '/>
-    <InfoBox 
-      title='Air Freight'
-      paragraph='We provide full supply chain management package including cost ' />
+    {props.data.map((infoBox) => 
+      <InfoBox 
+        key={infoBox.id}
+        title={infoBox.title}
+        paragraph={infoBox.description.description}
+      />
+    )}
+    
   </Boxes>
 )
 

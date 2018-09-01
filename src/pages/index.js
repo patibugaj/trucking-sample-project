@@ -8,11 +8,46 @@ const Div = styled.div`
   width: 100%;
 `
 
-const IndexPage = () => (
+const IndexPage = (props) => (
   <Div>
-    <Hero />
-    <Offer />
+    <Hero {...props.data.contentfulHero} />
+    <Offer {...props.data.contentfulOffer} />
   </Div>
 )
 
 export default IndexPage
+
+
+export const pageQuery = graphql`
+  query sections {
+    contentfulHero {
+      id,
+      title,
+      infoBoxes{
+        id,
+        title,
+        description{
+          description
+        }
+      }
+    }
+    contentfulOffer {
+      id,
+      title,
+      subTitle,
+      offerBoxes {        
+        id,
+        title,
+        description {
+          description
+        },
+        icon{
+          file{
+            url
+          }
+        },
+        order
+      }
+    }
+  }
+`
