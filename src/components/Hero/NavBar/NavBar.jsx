@@ -10,11 +10,10 @@ const Container = styled.div`
   margin-top: 42px;
   background-color: #fff;
   border-radius: 3px;
-  outline: 1px solid black;
-  box-shadow: 0px -8px 0px rgb(65, 81, 94);
+  box-shadow: 0px -8px 0px #41515e;
   display: flex;
   flex-direction: row;
-  wrap: no-wrap;
+  flex-wrap: no-wrap;
   justify-content: flex-end;
 `
 
