@@ -1,10 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import Box from './Box'
-import contract from './contract.png'
-import overland from './overland.png'
-import warehousing from './warehousing.png'
-import consulting from './consulting.png'
 
 const Container = styled.div`
     width: 100%;
