@@ -3,13 +3,11 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   height: 184px;
-  outline: 1px solid red;
   background-color: #fff
   padding: 29px 31px;
 `
 
 const Title = styled.h1`
-  font-family: 'Raleway', sans-serif;
   font-weight: bolder;
   font-size: 18px;
   text-transform: uppercase;

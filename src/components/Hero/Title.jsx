@@ -6,7 +6,6 @@ const Container = styled.div`
 `
 
 const Header = styled.h1`
-  font-family: 'Raleway', sans-serif;
   font-weight: bolder;
   font-size: 72px;
   text-transform: uppercase;

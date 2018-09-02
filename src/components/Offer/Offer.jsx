@@ -17,7 +17,6 @@ const Container = styled.div`
   align-items: center;
   width: 100%;
   padding: 70px 0;
-  font-family: 'Raleway', sans-serif;
 `
 
 const Header = styled.div`

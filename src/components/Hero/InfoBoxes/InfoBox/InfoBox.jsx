@@ -6,7 +6,6 @@ import Bottom from './Bottom'
 const Box = styled.div`
     width: 360px;
     height: 400px;
-    outline: 1px solid yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;

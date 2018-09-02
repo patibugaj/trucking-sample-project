@@ -4,7 +4,6 @@ import logoImage from './logo.png'
 
 const Container = styled.div`
     height: 100%;
-    outline: 1px solid red;
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -22,7 +21,6 @@ const Title = styled.div`
 `
 
 const Main = styled.h1`
-    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 25.92px;
     margin: 0;
@@ -30,7 +28,6 @@ const Main = styled.h1`
 `
 
 const SubTitle = styled.h4`
-    font-family: 'Raleway', sans-serif;
     font-size: 11.12px;
     margin:0;
     color: rgb(119, 119, 119);

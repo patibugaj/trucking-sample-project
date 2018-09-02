@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const Container = styled.div`
     width: 100%;
     height: 216px;
-    outline: 1px solid red;
     background-color: rgb(222, 222, 221);
     position: relative;
 `
@@ -13,7 +12,6 @@ const Link = styled.a`
     padding: 13px calc(30px + 30px) 13px 30px;
     background-color: rgb(27, 41, 54);
     color: #fff;
-    font-family: 'Raleway', sans-serif;
     font-size: 13px;
     line-height: 20px;
     text-transform: uppercase;

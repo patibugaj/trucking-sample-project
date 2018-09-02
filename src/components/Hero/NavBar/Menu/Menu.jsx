@@ -4,7 +4,6 @@ import Item from './Item'
 
 const Container = styled.ul`
     height: 100%;
-    outline: 1px solid red;
     flex-grow: 0;
     margin: 0;
     padding: 0;
@@ -14,7 +13,6 @@ const Container = styled.ul`
     wrap: nowrap;
     justify-content: center;
     align-items: center;
-    font-family:  'Raleway', sans-serif;
     font-size: 13px;
     line-height: 22px;
     font-weight: bold;

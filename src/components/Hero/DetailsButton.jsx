@@ -10,7 +10,6 @@ const Container = styled.div`
 const Button = styled.button`
   background-color: rgb(253,195,0);
   color: #fff;
-  font-family: 'Raleway',sans-serif;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;

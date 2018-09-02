@@ -1,7 +1,14 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, {injectGlobal} from 'styled-components'
 import Hero from '../components/Hero'
 import Offer from '../components/Offer'
+
+injectGlobal`
+  body {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+  }
+`
 
 const Div = styled.div`
   margin: 0;

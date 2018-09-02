@@ -12,7 +12,6 @@ const Container = styled.div`
 `
 
 const Icon = styled.div`
-    outline: 1px solid green;
     width: 162px;
     display: flex;
     justify-content: center;
@@ -20,7 +19,6 @@ const Icon = styled.div`
 `
 
 const Info = styled.div`
-    outline: 1px solid blue;
     width: calc( 100% - 162px);
 `
 
