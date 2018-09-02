@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Container = styled.div`
   height: 184px;
   background-color: #fff
-  padding: 29px 31px;
+  padding: 32px 29px;
 `
 
 const Title = styled.h1`
@@ -12,7 +12,7 @@ const Title = styled.h1`
   font-size: 18px;
   text-transform: uppercase;
   color: #333;
-  line-height: 40px;
+  line-height: 2.5;
   margin: 0;
 
   ::before {
@@ -26,9 +26,10 @@ const Title = styled.h1`
 const Paragraph = styled.p`
   font-family: 'OpenSans', sans-serif;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 1.5;
   color: #777;
   margin: 0;
+  hyphens: auto;
 `
 
 const Bottom = (props) => (

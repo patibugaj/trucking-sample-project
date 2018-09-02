@@ -16,11 +16,13 @@ const Link = styled.a`
     line-height: 20px;
     text-transform: uppercase;
     position: absolute;
-    bottom:0;
+    bottom: 0;
     right: 0;
+    transition: background-color 0.2s;
 
     :hover {
         background-color: #006db7;
+
         :after {
             background-color: #037ed1;
         }
@@ -29,7 +31,7 @@ const Link = styled.a`
     :after {
         content: '>';
         background-color: #2f3840;
-        padding: 12px 11px 13px 13px;
+        padding: 13px;
         position: absolute;
         top: 0;
         right: 0;

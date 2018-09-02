@@ -8,7 +8,7 @@ const Container = styled.div`
     margin: 20px 0;
     display: flex;
     flex-direction: row;
-    wrap: nowrap;
+    flex-wrap: nowrap;
 `
 
 const Icon = styled.div`
@@ -19,19 +19,23 @@ const Icon = styled.div`
 `
 
 const Info = styled.div`
-    width: calc( 100% - 162px);
+    width: 393px;
 `
 
 const Title = styled.h1`
     font-size: 18px;
     color: #333;
+    margin-top: 34px;
 `
 
 const Paragraph = styled.p` 
     font-family: 'OpenSans', sans-serif;
     font-size: 13px;
-    line-height: 20px;
+    line-height: 1.5;
     color: #777;
+    margin: 0;
+    width: 350px;
+    hyphens: auto;
 `
 
 const Box = (props) => (

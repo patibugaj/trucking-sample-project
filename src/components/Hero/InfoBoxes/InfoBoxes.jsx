@@ -9,7 +9,7 @@ const Boxes = styled.div`
   flex-wrpa: nowrap;
   justify-content: space-between;
   align-items: center;
-  padding:0;
+  padding: 0;
   margin: 0;
 `
 

@@ -10,9 +10,9 @@ const Container = styled.ul`
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    wrap: nowrap;
+    flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     font-size: 13px;
     line-height: 22px;
     font-weight: bold;
