@@ -22,7 +22,7 @@ const Boxes = (props) => (
             .map((offerBox) => 
                 <Box 
                     key={offerBox.id}
-                    icon={ offerBox.icon.file.url }
+                    icon={offerBox.icon.file.url}
                     title={offerBox.title}
                     paragraph={offerBox.description.description}
                 />

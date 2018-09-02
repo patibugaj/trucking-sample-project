@@ -39,11 +39,11 @@ const Paragraph = styled.p`
 const Box = (props) => (
     <Container>
         <Icon>
-            <img src={ props.icon } alt="Icon" />
+            <img src={props.icon} alt="Icon" />
         </Icon>
         <Info>
-            <Title>{ props.title }</Title>
-            <Paragraph>{ props.paragraph }</Paragraph>
+            <Title>{props.title}</Title>
+            <Paragraph>{props.paragraph}</Paragraph>
         </Info>
     </Container>
 )

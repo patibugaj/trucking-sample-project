@@ -16,7 +16,7 @@ module.exports = class HTML extends React.Component {
       css = (
         <style
           id="gatsby-inlined-css"
-          dangerouslySetInnerHTML={{ __html: stylesStr }}
+          dangerouslySetInnerHTML={{__html: stylesStr }}
         />
       )
     }
@@ -38,7 +38,7 @@ module.exports = class HTML extends React.Component {
           <div
             key={`body`}
             id="___gatsby"
-            dangerouslySetInnerHTML={{ __html: this.props.body }}
+            dangerouslySetInnerHTML={{__html: this.props.body }}
           />
           {this.props.postBodyComponents}
         </body>

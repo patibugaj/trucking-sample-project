@@ -35,7 +35,7 @@ export const pageQuery = graphql`
       id,
       title,
       subTitle,
-      offerBoxes {        
+      offerBoxes {
         id,
         title,
         description {

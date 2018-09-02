@@ -28,6 +28,7 @@ const Main = styled.h1`
     margin: 0;
     text-transform: uppercase;
 `
+
 const SubTitle = styled.h4`
     font-family: 'Raleway', sans-serif;
     font-size: 11.12px;
@@ -37,7 +38,7 @@ const SubTitle = styled.h4`
 
 const Logo = () => (
     <Container>
-        <img src={ logoImage } alt="Logo" />
+        <img src={logoImage} alt="Logo" />
         <Title>
             <Main>Trucking</Main>
             <SubTitle>Logistics & Transportation</SubTitle>

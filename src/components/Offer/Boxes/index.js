@@ -1,1 +1,1 @@
-export { default } from './Boxes'
+export {default} from './Boxes'

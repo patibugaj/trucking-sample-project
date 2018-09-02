@@ -18,7 +18,7 @@ const Link = styled.a`
 `
 
 const Item = (props) => (
-    <Li><Link href='#'>{ props.title }</Link></Li>
+    <Li><Link href='#'>{props.title}</Link></Li>
 )
 
 export default Item

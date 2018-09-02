@@ -14,7 +14,7 @@ const Div = styled.div`
 
 const Search = () => (
     <Div>
-        <img src={ icon } alt="Search" />
+        <img src={icon} alt="Search" />
     </Div>
 )
 

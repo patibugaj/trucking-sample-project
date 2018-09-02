@@ -16,8 +16,8 @@ const InfoBox = (props) => (
     <Box>
         <Top />
         <Bottom 
-            title={ props.title }
-            paragraph={ props.paragraph } 
+            title={props.title}
+            paragraph={props.paragraph} 
         />
     </Box>
 )

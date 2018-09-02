@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import Width from '../Width'
 import Boxes from './Boxes'
-import { checkPropTypes } from 'prop-types';
 
 const Section = styled.section`
   background-color: rgb(255, 255, 255);
@@ -20,6 +19,7 @@ const Container = styled.div`
   padding: 70px 0;
   font-family: 'Raleway', sans-serif;
 `
+
 const Header = styled.div`
   display: flex;
   flex-direction: column;
@@ -32,6 +32,7 @@ const Title = styled.h1`
   margin: 0;
   color: rgb(51, 51, 51);
 `
+
 const SubTitle = styled.h3`
   font-size: 13px;
   font-weight: bold;

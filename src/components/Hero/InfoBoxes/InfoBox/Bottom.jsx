@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Container = styled.div`
-    height: 184px;
-    outline: 1px solid red;
-    background-color: #fff
-    padding: 29px 31px;
+  height: 184px;
+  outline: 1px solid red;
+  background-color: #fff
+  padding: 29px 31px;
 `
 
 const Title = styled.h1`
@@ -21,8 +21,7 @@ const Title = styled.h1`
     content: '';
     border: 2px solid rgb( 253, 195, 0);
     width: 30px;
-    display: block;             v 
-
+    display: block;
   }
 `
 
@@ -36,8 +35,8 @@ const Paragraph = styled.p`
 
 const Bottom = (props) => (
     <Container>
-        <Title>{ props.title }</Title>
-        <Paragraph>{ props.paragraph }</Paragraph>
+        <Title>{props.title}</Title>
+        <Paragraph>{props.paragraph}</Paragraph>
     </Container>
 )
 

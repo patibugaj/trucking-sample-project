@@ -6,6 +6,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
 `
+
 const Button = styled.button`
   background-color: rgb(253,195,0);
   color: #fff;
