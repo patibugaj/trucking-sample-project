@@ -29,6 +29,7 @@ const Main = styled.h1`
 
 const SubTitle = styled.h4`
     font-size: 11.12px;
+    font-weight: 400;
     margin: 0;
     color: #777;
 `

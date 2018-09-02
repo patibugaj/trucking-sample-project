@@ -10,14 +10,14 @@ const Container = styled.div`
 const Button = styled.button`
   background-color: #fdc300;
   color: #fff;
+  font-family: 'Raleway',sans-serif;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 22px 63px 18px 63px;
+  padding: 17px 63px 17px 63px;
   border-radius: 30px;
   border-style: none;
-  height: 51px;
-  margin: 50px 0;
+  margin: 51px 0;
 `
 
 const DetailsButton = () => (

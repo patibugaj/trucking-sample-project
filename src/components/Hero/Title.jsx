@@ -6,7 +6,7 @@ const Container = styled.div`
 `
 
 const Header = styled.h1`
-  font-weight: bolder;
+  font-weight: 800;
   font-size: 72px;
   text-transform: uppercase;
   color: #fff;

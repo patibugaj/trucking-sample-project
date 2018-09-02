@@ -9,11 +9,11 @@ const Container = styled.div`
 `
 
 const Link = styled.a`
-    padding: 13px calc(30px + 30px) 13px 30px;
+    padding: 10px calc(30px + 30px) 10px 30px;
     background-color: #1b2936;
     color: #fff;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
     text-transform: uppercase;
     position: absolute;
     bottom: 0;
@@ -31,7 +31,7 @@ const Link = styled.a`
     :after {
         content: '>';
         background-color: #2f3840;
-        padding: 13px;
+        padding: 10px;
         position: absolute;
         top: 0;
         right: 0;
