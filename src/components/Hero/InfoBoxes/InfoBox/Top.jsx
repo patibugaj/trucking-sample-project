@@ -4,13 +4,13 @@ import styled from 'styled-components'
 const Container = styled.div`
     width: 100%;
     height: 216px;
-    background-color: rgb(222, 222, 221);
+    background-color: #dededd;
     position: relative;
 `
 
 const Link = styled.a`
     padding: 13px calc(30px + 30px) 13px 30px;
-    background-color: rgb(27, 41, 54);
+    background-color: #1b2936;
     color: #fff;
     font-size: 13px;
     line-height: 20px;
@@ -20,15 +20,15 @@ const Link = styled.a`
     right: 0;
 
     :hover {
-        background-color: rgb(0, 109, 183);
+        background-color: #006db7;
         :after {
-            background-color: rgb(3, 126, 209);
+            background-color: #037ed1;
         }
     }
 
     :after {
         content: '>';
-        background-color: rgb(47, 56, 64);
+        background-color: #2f3840;
         padding: 12px 11px 13px 13px;
         position: absolute;
         top: 0;

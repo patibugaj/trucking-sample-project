@@ -11,13 +11,13 @@ const Title = styled.h1`
   font-weight: bolder;
   font-size: 18px;
   text-transform: uppercase;
-  color: rgb(51, 51, 51);
+  color: #333;
   line-height: 40px;
   margin: 0;
 
   ::before {
     content: '';
-    border: 2px solid rgb( 253, 195, 0);
+    border: 2px solid #fdc300;
     width: 30px;
     display: block;
   }
@@ -27,7 +27,7 @@ const Paragraph = styled.p`
   font-family: 'OpenSans', sans-serif;
   font-size: 13px;
   line-height: 20px;
-  color: rgb(119, 119, 119);
+  color: #777;
   margin: 0;
 `
 

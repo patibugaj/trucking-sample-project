@@ -8,7 +8,7 @@ const Container = styled.div`
 `
 
 const Button = styled.button`
-  background-color: rgb(253,195,0);
+  background-color: #fdc300;
   color: #fff;
   font-size: 13px;
   font-weight: bold;

@@ -15,7 +15,7 @@ const Header = styled.h1`
 
   ::before {
     content: '';
-    border: 2px solid rgb( 253, 195, 0);
+    border: 2px solid #fdc300;
     width: 66px;
     display: block;
     margin: 0 0 20px 5px;

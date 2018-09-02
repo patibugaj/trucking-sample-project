@@ -7,7 +7,7 @@ import DetailsButton from './DetailsButton'
 import Title from './Title'
 
 const Section = styled.section`
-  background-color: rgb(18, 38, 54);
+  background-color: #122636;
   display: flex;
   justify-content: center;
   align-items: center;

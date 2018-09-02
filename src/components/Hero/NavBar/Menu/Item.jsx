@@ -9,11 +9,11 @@ const Li = styled.li`
 const Link = styled.a`
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(51, 51, 51);
+    color: #333;
     padding: 0 16px 29px 12px;
 
     :hover {
-        border-bottom: 5px solid rgb(0, 109, 183);
+        border-bottom: 5px solid #006db7;
     }
 `
 

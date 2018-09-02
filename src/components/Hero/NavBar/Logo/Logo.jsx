@@ -30,7 +30,7 @@ const Main = styled.h1`
 const SubTitle = styled.h4`
     font-size: 11.12px;
     margin:0;
-    color: rgb(119, 119, 119);
+    color: #777;
 `
 
 const Logo = () => (
