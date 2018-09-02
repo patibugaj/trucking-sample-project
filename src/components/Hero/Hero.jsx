@@ -6,8 +6,8 @@ import InfoBoxes from './InfoBoxes'
 import DetailsButton from './DetailsButton'
 import Title from './Title'
 
-const GRADIENT_SEPARATOR_START = '71.9%'
-const GRADIENT_SEPARATOR_END = '71.98%'
+const GRADIENT_SEPARATOR_START = '72.18%'
+const GRADIENT_SEPARATOR_END = '72.26%'
 
 const Section = styled.section`
   background-color: #122636; 

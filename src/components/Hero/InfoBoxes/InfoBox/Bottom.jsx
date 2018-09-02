@@ -5,6 +5,7 @@ const Container = styled.div`
   height: 184px;
   background-color: #fff
   padding: 32px 29px;
+  box-sizing: border-box;
 `
 
 const Title = styled.h1`
