@@ -6,8 +6,14 @@ import InfoBoxes from './InfoBoxes'
 import DetailsButton from './DetailsButton'
 import Title from './Title'
 
+const GRADIENT_SEPARATOR_START = '71.9%'
+const GRADIENT_SEPARATOR_END = '71.98%'
+
 const Section = styled.section`
-  background-color: #122636;
+  background-color: #122636; 
+  background-image:
+    linear-gradient(to bottom, transparent ${GRADIENT_SEPARATOR_END}, #1b2936 ${GRADIENT_SEPARATOR_END}),
+    linear-gradient(to bottom, #122636 ${GRADIENT_SEPARATOR_START}, #223443 ${GRADIENT_SEPARATOR_START});
   display: flex;
   justify-content: center;
   align-items: center;
